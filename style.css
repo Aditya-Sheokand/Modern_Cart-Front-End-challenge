@@ -1,0 +1,228 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+/* for wrapper  */
+#wrapper{
+    height:100vh;
+    width:100vw;
+    background-color:  hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* style for cart  */
+
+.cart{
+    
+    height:70%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.image-box{
+    height:100%;
+    width: 50%;
+  
+
+}
+
+.image{
+    height:100%;
+    width:100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* for image-side content  */
+
+.content{
+    height:100%;
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+   
+
+}
+
+
+/* for inner-box  */
+
+.inner-box
+{
+    margin: 7% 7% 5% 7%;
+    height: 94%;
+    width:86%;
+    
+}
+
+/* upper paragraph  */
+.upper-para{
+    font-size: 14px;
+    font-family: Montserrat;
+    color:hsl(228, 12%, 48%);
+    font-weight: 100;
+    letter-spacing: 5px;
+    line-height: 0.8;
+    margin-bottom: 5%;
+}
+
+/* styling for main text/heading  */
+
+.main-text{
+   color:hsl(212, 21%, 14%);
+    font-weight: 500;
+    font-family: 'Bigshot One';
+    font-size: 25px;
+    margin-bottom: 5%;
+    
+
+}
+/* for lower para paragraph */
+.lower-para{
+    font-size: 14px;
+    font-family: Fraunces;
+    color:hsl(228, 12%, 48%);
+    margin-bottom: 5%;
+
+
+
+}
+
+/* price styling */
+
+.price-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    height:auto;
+   
+    
+   
+}
+
+.price1{
+    color:green;
+    display: inline-block;
+    width:100px;
+    font-family: 'Bigshot One';
+    font-size:30px;
+    
+    
+    
+}
+
+.price2{
+    display: inline-block;
+    margin-left: 5%;
+    font-family: Montserrat;
+    font-size: small;
+    align-self: center;
+
+
+}
+
+/* for button-box styling */
+.button-box{
+    height:13%;
+    width:100%;
+    background-color: green;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size:larger;
+    border-radius:10px;
+}
+
+.button-box:hover{
+    cursor: pointer;
+    background-color: rgb(3, 90, 3);
+}
+
+
+/* Mobile design  */
+
+@media screen and (max-width: 370px) {
+
+    #wrapper{
+        height:100vh;
+        width:100vw;
+        background-color:  hsl(30, 38%, 92%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cart{
+    
+        height:100vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    }
+    .image-box{
+        height:45%;
+        width: 100%;
+      
+    
+    }
+    
+    .image{
+        height: 100%;
+        width:100%;
+        
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    /* for image-side content  */
+    /* for inner-box  */
+
+
+    
+    .content{
+        height:55%;
+        width: 100%;
+        background-color: hsl(0, 0%, 100%);
+       
+    
+    }
+
+    .inner-box
+{
+    margin: 7% 7% 5% 7%;
+    height: 86%;
+    width:86%;
+    
+}
+    .button-box{
+        
+        width:100%;
+        background-color: green;
+        color:aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size:larger;
+        border-radius:10px;
+    }
+    
+    .button-box:hover{
+        cursor: pointer;
+        background-color: rgb(3, 90, 3);
+    }
+    
+    
+
+    
+  }
+
